@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ADMine/Classes/**/*'
   
+  s.dependency 'ADCase_Category'
+  
   # s.resource_bundles = {
   #   'ADMine' => ['ADMine/Assets/*.png']
   # }

@@ -60,7 +60,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B12A0CD5085C073571AF22A /* Pods-ADMine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMine_Example.debug.xcconfig"; path = "Target Support Files/Pods-ADMine_Example/Pods-ADMine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C6FC9497EC1138EA6DEFE57 /* ADMine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ADMine.podspec; path = ../ADMine.podspec; sourceTree = "<group>"; };
+		9C6FC9497EC1138EA6DEFE57 /* ADMine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ADMine.podspec; path = ../ADMine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FDB173D296F85F208CBCC54 /* Pods_ADMine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A750923B3C557EC80A46D3 /* Pods_ADMine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10393041A3D2F40B58BB5C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -342,11 +342,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ADMine_Example/Pods-ADMine_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ADCase_Category/ADCase_Category.framework",
 				"${BUILT_PRODUCTS_DIR}/ADMine/ADMine.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADCase_Category.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADMine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
