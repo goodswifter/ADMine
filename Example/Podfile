@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ADMine_Example' do
+  pod 'ADMine', :path => '../'
+
+  target 'ADMine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
