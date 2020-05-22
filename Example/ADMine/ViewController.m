@@ -18,9 +18,4 @@
     [super viewDidLoad];
 }
 
-/// <#Description#>
-- (IBAction)jump2MineCaseListAction {
-    
-}
-
 @end
