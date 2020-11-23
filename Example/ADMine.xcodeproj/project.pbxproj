@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1251AFA82446E61900C2BF9D /* ADCaseListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251AFA72446E61900C2BF9D /* ADCaseListVC.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -367,7 +366,6 @@
 				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				1251AFA82446E61900C2BF9D /* ADCaseListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
