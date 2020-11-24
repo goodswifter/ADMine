@@ -22,7 +22,7 @@ pod 'ADMine'
 
 ## Author
 
-goodswifter, zhongaidong@jingshonline.com
+goodswifter, 1042480866@qq.com
 
 ## License
 

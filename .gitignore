@@ -37,5 +37,5 @@ Carthage/Build
 Pods/
 
 # fastlane
-fastlane/report.xml
+report.xml
 

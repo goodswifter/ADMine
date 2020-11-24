@@ -3,7 +3,7 @@ default_platform(:ios)
 platform :ios do
 
 	# 创建航道
-	# 使用航道 : fastlane ADManagerLibLane tag: target: commit:
+	# 使用航道 : fastlane ADManagerLibLane tag: target: commit
 	desc "自动发布Pods版本"
 	lane :ADManagerLibLane do |options|
 
