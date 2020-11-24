@@ -7,7 +7,7 @@
 //
 
 #import "Target_ADMine.h"
-#import "ADCaseListVC.h"
+#import "ADCaseVC.h"
 
 @implementation Target_ADMine
 
@@ -17,7 +17,7 @@
     if (callback) {
         callback(@"success");
     }
-    ADCaseListVC *viewController = [[ADCaseListVC alloc] init];
+    ADCaseVC *viewController = [[ADCaseVC alloc] init];
     return viewController;
 }
 
