@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ADMine'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'ADMine.'
   s.description      = 'ADMine description'
 

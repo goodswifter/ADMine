@@ -6,7 +6,7 @@
 //
 
 #import "ADCaseVC.h"
-#import "CTMediator+ADCase.h"
+//#import "CTMediator+ADCase.h"
 
 @interface ADCaseVC ()
 
@@ -29,8 +29,8 @@
 
 /// 跳转到案例模块的案例详情页面
 - (void)jump2CaseDetailAction {
-    UIViewController *caseDetailVc = [[CTMediator sharedInstance] ADCase_Category_ViewControllerWithCaseId:5];
-    [self.navigationController pushViewController:caseDetailVc animated:YES];
+//    UIViewController *caseDetailVc = [[CTMediator sharedInstance] ADCase_Category_ViewControllerWithCaseId:5];
+//    [self.navigationController pushViewController:caseDetailVc animated:YES];
 }
 
 @end
