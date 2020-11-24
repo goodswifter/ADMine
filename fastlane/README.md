@@ -12,13 +12,13 @@ Install _fastlane_ using
 ```
 [sudo] gem install fastlane -NV
 ```
-or alternatively using `brew cask install fastlane`
+or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios JSManagerLibLane
+### ios ADManagerLibLane
 ```
-fastlane ios JSManagerLibLane
+fastlane ios ADManagerLibLane
 ```
 自动发布Pods版本
 

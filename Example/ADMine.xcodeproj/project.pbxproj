@@ -35,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1251AFA62446E61900C2BF9D /* ADCaseListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADCaseListVC.h; sourceTree = "<group>"; };
-		1251AFA72446E61900C2BF9D /* ADCaseListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCaseListVC.m; sourceTree = "<group>"; };
 		12669CD6244540010000E446 /* ADMine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADMine-Prefix.pch"; sourceTree = "<group>"; };
 		148B6CF3E84A36510A5DF032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40D1B68338CF5489383673C1 /* Pods-ADMine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMine_Example.release.xcconfig"; path = "Target Support Files/Pods-ADMine_Example/Pods-ADMine_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,15 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1251AFA52446E5F700C2BF9D /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				1251AFA62446E61900C2BF9D /* ADCaseListVC.h */,
-				1251AFA72446E61900C2BF9D /* ADCaseListVC.m */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
 		12F3DFAB23A9B80600843B33 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +142,6 @@
 		6003F593195388D20070C39A /* Example for ADMine */ = {
 			isa = PBXGroup;
 			children = (
-				1251AFA52446E5F700C2BF9D /* Mine */,
 				12F3DFAB23A9B80600843B33 /* Other */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ViewController.h */,
