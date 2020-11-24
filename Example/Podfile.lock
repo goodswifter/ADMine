@@ -1,7 +1,7 @@
 PODS:
   - ADCase_Category (0.1.1):
     - CTMediator
-  - ADMine (0.1.2):
+  - ADMine (0.1.3):
     - ADCase_Category
   - CTMediator (44)
 
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ADCase_Category: 859cb73e13a9b300be5cf02163e325c811781c24
-  ADMine: 3a7e6abde574a295b4faeaa2335667708bb17f40
+  ADMine: 973612ff840e266e02b5dd051b481e785f1fbb32
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
 
 PODFILE CHECKSUM: 25221a9a044145733d2256bf29dac03ab088a948
