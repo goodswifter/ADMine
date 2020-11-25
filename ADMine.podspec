@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ADMine'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'ADMine.'
   s.description      = 'ADMine description'
   s.homepage         = 'https://github.com/goodswifter/ADMine'
