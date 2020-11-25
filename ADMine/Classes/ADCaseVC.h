@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ADCase_Category/CTMediator+ADCase.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
