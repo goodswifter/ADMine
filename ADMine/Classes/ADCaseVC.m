@@ -6,7 +6,6 @@
 //
 
 #import "ADCaseVC.h"
-#import <ADCase_Category/CTMediator+ADCase.h>
 
 @interface ADCaseVC ()
 

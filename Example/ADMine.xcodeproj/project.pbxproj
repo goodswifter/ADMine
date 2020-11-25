@@ -37,8 +37,8 @@
 /* Begin PBXFileReference section */
 		0C66D2FBCD5DECE544CFA7DA /* Pods_ADMine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12669CD6244540010000E446 /* ADMine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ADMine-Prefix.pch"; sourceTree = "<group>"; };
-		395D0AFABFA3679198243F43 /* ADMine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ADMine.podspec; path = ../ADMine.podspec; sourceTree = "<group>"; };
-		3ABBC664915A3ECA9CCB5EEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		395D0AFABFA3679198243F43 /* ADMine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ADMine.podspec; path = ../ADMine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3ABBC664915A3ECA9CCB5EEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3CDB538455A62B51530F70D9 /* Pods_ADMine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0ABE430A8F207DA38D974B /* Pods-ADMine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMine_Tests.release.xcconfig"; path = "Target Support Files/Pods-ADMine_Tests/Pods-ADMine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ADMine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADMine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A3ACB84F6294FB525DC40DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A3ACB84F6294FB525DC40DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9C2B81BDC7A9F3123C7015F9 /* Pods-ADMine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMine_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ADMine_Tests/Pods-ADMine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5910C3A44751038A03D4683 /* Pods-ADMine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMine_Example.debug.xcconfig"; path = "Target Support Files/Pods-ADMine_Example/Pods-ADMine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5FA42CE6EF9CF4C34F262EE /* Pods-ADMine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMine_Example.release.xcconfig"; path = "Target Support Files/Pods-ADMine_Example/Pods-ADMine_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,7 +179,6 @@
 				9C2B81BDC7A9F3123C7015F9 /* Pods-ADMine_Tests.debug.xcconfig */,
 				5F0ABE430A8F207DA38D974B /* Pods-ADMine_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
