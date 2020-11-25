@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.version          = '0.1.10'
   s.summary          = 'ADMine.'
   s.description      = 'ADMine description'
-
   s.homepage         = 'https://github.com/goodswifter/ADMine'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'goodswifter' => '1042480866@qq.com' }
