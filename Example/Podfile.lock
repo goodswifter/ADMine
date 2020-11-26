@@ -1,16 +1,17 @@
 PODS:
-  - ADCase_Category (0.1.2):
-    - CTMediator
-  - ADMine (0.1.11):
-    - ADCase_Category
+  - ADMine (0.1.12):
+    - JSMediator
   - CTMediator (44)
+  - JSMediator (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - ADMine (from `../`)
 
 SPEC REPOS:
+  https://gitee.com/jingshionline/jsolspecs.git:
+    - JSMediator
   trunk:
-    - ADCase_Category
     - CTMediator
 
 EXTERNAL SOURCES:
@@ -18,10 +19,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ADCase_Category: bae766e7fa7aad3ec5b9e12220a4384cb81e7684
-  ADMine: 641492ebd6119b0359ad60aee94c6eacfb5ed6a4
+  ADMine: 5aeeb65e8be1c659aebe9c4dcfa99f5411aa968b
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  JSMediator: 272ba47399b3f293435f0ece6c95fdc8d2d4b230
 
-PODFILE CHECKSUM: 25221a9a044145733d2256bf29dac03ab088a948
+PODFILE CHECKSUM: edc5ab1704677ad28f567bed50980466fc959624
 
 COCOAPODS: 1.10.0

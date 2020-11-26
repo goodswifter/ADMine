@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ADMine'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = 'ADMine.'
   s.description      = 'ADMine description'
   s.homepage         = 'https://github.com/goodswifter/ADMine'
@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/goodswifter/ADMine.git', :tag => s.version.to_s }
   s.platform = :ios, '9.0'
   s.source_files = 'ADMine/Classes/**/*'
-  s.dependency 'ADCase_Category'
+  s.dependency 'JSMediator'
   s.prefix_header_file = 'Example/ADMine/Other/ADMine-Prefix.pch'
 end
